@@ -1,5 +1,5 @@
 Arguments: 
-  D:\nodejs\node.exe D:\Yarn\bin\yarn.js add umi-plugin-gh-pages
+  D:\nodejs\node.exe D:\Yarn\bin\yarn.js add umi-serve
 
 PATH: 
   C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Java\jdk1.8.0_71\bin;D:\nodejs\;C:\Program Files\Git\cmd;D:\Yarn\bin\;C:\Program Files\dotnet\;‪D:\nodejs\node_modules;C:\Users\gloomyKevin\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Bandizip\;C:\Users\gloomyKevin\AppData\Roaming\npm;‪D:\cmder;C:\Users\gloomyKevin\AppData\Local\Yarn\bin;D:\nodejs\node_global;

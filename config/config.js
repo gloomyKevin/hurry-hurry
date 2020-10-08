@@ -6,6 +6,12 @@ const plugins = [
 ];
 
 export default {
+    history: 'hash',
+    exportStatic: {},
+    exportStatic: {
+        htmlSuffix: true,
+        dynamicRoot: true,
+    },
     plugins,
     routes: [
         {
