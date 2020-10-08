@@ -1,0 +1,68 @@
+Arguments: 
+  D:\nodejs\node.exe D:\Yarn\bin\yarn.js add umi-plugin-gh-pages
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Java\jdk1.8.0_71\bin;D:\nodejs\;C:\Program Files\Git\cmd;D:\Yarn\bin\;C:\Program Files\dotnet\;‪D:\nodejs\node_modules;C:\Users\gloomyKevin\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Bandizip\;C:\Users\gloomyKevin\AppData\Roaming\npm;‪D:\cmder;C:\Users\gloomyKevin\AppData\Local\Yarn\bin;D:\nodejs\node_global;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\gloomyKevin\AppData\Local\Yarn\Cache\v6\npm-ansi-regex-4.1.0-8b9f8f08cf1acb843756a839ca8c7e3168c51997-integrity\node_modules\ansi-regex\license' -> 'D:\React\hury-hury\node_modules\@jest\core\node_modules\ansi-regex\license'
+
+npm manifest: 
+  {
+    "name": "todo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --config .jest.js",
+      "dev": "umi dev",
+      "build": "umi build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/cli": "^7.2.3",
+      "@babel/core": "^7.2.2",
+      "@babel/preset-env": "^7.2.2",
+      "babel-jest": "^23.6.0",
+      "enzyme": "^3.8.0",
+      "enzyme-adapter-react-16": "^1.7.1",
+      "jest": "^23.6.0",
+      "jest-cli": "^23.6.0",
+      "react-addons-test-utils": "^15.6.2",
+      "umi": "^2.2.7",
+      "umi-plugin-react": "^1.2.3"
+    },
+    "dependencies": {
+      "antd": "^3.11.6"
+    },
+    "jest": {
+      "moduleFileExtensions": [
+        "js",
+        "jsx"
+      ],
+      "moduleNameMapper": {
+        "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+        "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+      },
+      "transform": {
+        "^.+\\.js$": "babel-jest"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
