@@ -6,26 +6,18 @@ const { Sider } = Layout;
 const MenuItem = Menu.Item;
 
 const siderStyle = {
-    backgroundColor: 'rgb(204,231,254)',
-    height: '100vh',
-    borderRadius: '0 20px 20px 0',
-    filter: 'blur(0.2px)'
+    backgroundColor: '#acc',
+    height: '100vh'
 };
 const menuStyle = {
-    backgroundColor: 'rgb(204,231,254)',
-    borderColor: 'rgb(204,231,254)',
-    textAlign: 'center',
+    backgroundColor: '#acc',
+    borderColor: '#acc',
+    textAlign: 'center'
 };
 const dividerStyle = {
     margin: '0',
     backgroundColor: '#fff',
 };
-
-const avatarStyle = {
-    // height: '10px',
-    padding: '40px 40px 40px 55px',
-    margin: '0 auto'
-}
 
 // 侧边栏组件
 class SiderMenu extends React.PureComponent {
@@ -42,52 +34,52 @@ class SiderMenu extends React.PureComponent {
 
     render() {
         return (
-            <Sider width={150} style={siderStyle}>
-                <div style={avatarStyle}>
+            <Sider width={90} style={siderStyle}>
+                <div style={{ height: '90px', padding: '10px 20px 0' }}>
                     <Avatar size={48} icon="user" />
-                    <div style={{ fontSize: '12px' }}>个人清单</div>
+                    <div style={{ fontSize: '12px' }}>个人头像</div>
                 </div>
-                {/* <Divider style={dividerStyle} /> */}
+                <Divider style={dividerStyle} />
                 <Menu style={menuStyle}
                     selectedKeys={[this.state.selectedKey]}
                     onClick={this.changeItem}>
                     <MenuItem key='task'>
                         <Link to="/task">
                             <Icon type="bars" />
-                            <span><b>任务</b></span>
+                            <span>任务</span>
                         </Link>
                     </MenuItem>
-                    <MenuItem key='note'>
+                    {/* <MenuItem key='note'>
                         <Link to="/note">
                             <Icon type="file-text" />
-                            <span><b>便签</b></span>
+                            <span>便签</span>
                         </Link>
-                    </MenuItem>
-                    <MenuItem key='project'>
+                    </MenuItem> */}
+                    {/* <MenuItem key='project'>
                         <Link to="/project">
                             <Icon type="folder" />
-                            <span><b>进度</b></span>
+                            <span>项目</span>
                         </Link>
-                    </MenuItem>
+                    </MenuItem> */}
                 </Menu>
-                {/* <div><Divider style={dividerStyle} /></div> */}
+                {/* <div><Divider style={dividerStyle} /></div>
                 <Menu style={menuStyle}
                     selectedKeys={[this.state.selectedKey]}
                     onClick={this.changeItem}>
-                    {/* <MenuItem key='position'>
+                    <MenuItem key='position'>
                         <Link to="/position">
                             <Icon type="environment" />
                             <span>地点</span>
                         </Link>
-                    </MenuItem> */}
+                    </MenuItem>
                     <MenuItem key='tag'>
                         <Link to="/tag">
                             <Icon type="tags" />
-                            <span><b>分组</b></span>
+                            <span>标签</span>
                         </Link>
                     </MenuItem>
                 </Menu>
-                {/* <div><Divider style={dividerStyle} /></div> */}
+                <div><Divider style={dividerStyle} /></div>
                 <Menu style={menuStyle}
                     selectedKeys={[this.state.selectedKey]}
                     onClick={this.changeItem}>
@@ -102,7 +94,7 @@ class SiderMenu extends React.PureComponent {
                     <MenuItem key='more'>
                         <span>...</span>
                     </MenuItem>
-                </Menu>
+                </Menu> */}
             </Sider>
         );
     };
